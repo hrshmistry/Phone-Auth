@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828906378355",
+    "firebase_url": "https://gctask-5721c.firebaseio.com",
+    "project_id": "gctask-5721c",
+    "storage_bucket": "gctask-5721c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828906378355:android:e929d2dba5bf3903670606",
+        "android_client_info": {
+          "package_name": "com.hrshmistry.gctask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828906378355-tq38tgon3o08pggvvunjtrev2eja3ggn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hrshmistry.gctask",
+            "certificate_hash": "4cc7d45fac7ae2a086cbc8d42c7845d5f5f2bb08"
+          }
+        },
+        {
+          "client_id": "828906378355-qdkg5s2uf5q11ec4daliet925h12f6sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo6ClCrH6ZoofEbbuDEhxefjTn7y8x4tU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828906378355-qdkg5s2uf5q11ec4daliet925h12f6sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

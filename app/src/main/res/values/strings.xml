@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">gcTask</string>
+
+    <string name="text_intro1">Quick Login</string>
+    <string name="text_intro2">One-time code</string>
+    <string name="text_intro3">Exotic UI</string>
+
+    <string name="desc_intro1">Authenticate with Firebase on Android using a Phone Number.</string>
+    <string name="desc_intro2">The user logs in using a one-time code contained in the SMS message.</string>
+    <string name="desc_intro3">Enjoy your beautiful moments to exotic UI around the App.</string>
+    <string name="splash_screen_name">gcTask</string>
+    <string name="your_phone_number">Phone Number</string>
+</resources>
