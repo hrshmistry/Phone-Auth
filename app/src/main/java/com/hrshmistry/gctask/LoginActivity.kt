@@ -10,6 +10,7 @@ import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
@@ -127,6 +128,9 @@ class LoginActivity() : AppCompatActivity() {
         if (currentUser != null) {
             sendUserToHome()
         }
+//        else {
+//            setContentView(R.layout.activity_login)
+//        }
     }
 
     @SuppressLint("SetTextI18n")
