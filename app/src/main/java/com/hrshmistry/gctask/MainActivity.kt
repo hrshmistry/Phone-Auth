@@ -32,16 +32,16 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
 
-        //      Check if user is signed in (non-null) and update UI accordingly.
+//      Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = mAuth!!.currentUser
 
         if (currentUser == null) {
-            val loginIntent = Intent(this@MainActivity, LoginActivity::class.java)
-            loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
-            loginIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK)
-            startActivity(loginIntent)
-            finish()
+            sendUserToLogin()
         }
+//        else
+//        {
+//            setContentView(R.layout.activity_main)
+//        }
     }
 
     private fun sendUserToLogin() {
