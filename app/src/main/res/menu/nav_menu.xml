@@ -6,15 +6,15 @@
     <group>
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home"
+            android:icon="@drawable/ic_baseline_home_24"
             android:title="Home"/>
         <item
             android:id="@+id/nav_search"
-            android:icon="@drawable/search"
+            android:icon="@drawable/ic_baseline_search_24"
             android:title="Search"/>
         <item
             android:id="@+id/nav_about_us"
-            android:icon="@drawable/about_us"
+            android:icon="@drawable/ic_baseline_info_24"
             android:title="About us"/>
     </group>
 
@@ -23,11 +23,11 @@
         <menu>
             <item
                 android:id="@+id/nav_my_profile"
-                android:icon="@drawable/ic_user_profile"
+                android:icon="@drawable/ic_account_circle_24px"
                 android:title="My Profile"/>
             <item
                 android:id="@+id/nav_logout"
-                android:icon="@drawable/ic_logout_1"
+                android:icon="@drawable/ic_baseline_arrow_back_24"
                 android:title="Logout"/>
         </menu>
     </item>

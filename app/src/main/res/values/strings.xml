@@ -21,4 +21,7 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="this_is_our_gctask_application">This is our gcTask Application</string>
+    <string name="gctask">gcTask</string>
+
 </resources>
