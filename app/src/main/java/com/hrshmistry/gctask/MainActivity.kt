@@ -1,5 +1,6 @@
 package com.hrshmistry.gctask
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
@@ -24,10 +25,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     var drawerLayout: DrawerLayout? = null
     var navView: NavigationView? = null
 
+    @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setContentView(R.layout.content_main)
 
         toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
@@ -36,12 +37,11 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         navView = findViewById(R.id.nav_view)
 
         val toggle = ActionBarDrawerToggle(
-            this, drawerLayout, toolbar, 0, 0
+            this, drawerLayout, toolbar, R.string.app_name, 0
         )
-
         drawerLayout?.addDrawerListener(toggle)
         toggle.syncState()
-        navView!!.setNavigationItemSelectedListener(this)
+        navView?.setNavigationItemSelectedListener(this)
 
 //      initialize Firebase Auth
         mAuth = FirebaseAuth.getInstance()
